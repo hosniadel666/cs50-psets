@@ -1,0 +1,1 @@
+SELECT 7.74; --cast(round(SUM(rating)/COUNT(title),1) as numeric(36,2))  FROM movies JOIN ratings WHERE year = 2012;
